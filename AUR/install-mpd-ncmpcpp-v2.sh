@@ -18,6 +18,7 @@
 #https://wiki.archlinux.org/index.php/Music_Player_Daemon
 
 sudo pacman -S mpd --noconfirm --needed
+sudo pacman -S mpc --noconfirm --needed
 
 # no double config allowed in here and in ~/.config
 sudo rm /etc/mpd.conf

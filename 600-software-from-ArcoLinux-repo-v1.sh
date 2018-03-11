@@ -13,7 +13,10 @@ set -e
 #
 ##################################################################################################################
 
-echo "ArcoLinux Repository"
+echo "################################################################"
+echo "####     Software from ArcoLinux Repository installed       ####"
+echo "################################################################"
+echo
 
 sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
@@ -44,6 +47,7 @@ sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
+
 
 echo "################################################################"
 echo "####     Software from ArcoLinux Repository installed       ####"

@@ -21,7 +21,7 @@ sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
-sudo pacman -S --noconfirm --needed plank
+#sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
@@ -102,8 +102,8 @@ sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gksu
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
-sudo pacman -S --noconfirm --needed gnome-system-monitor
-sudo pacman -S --noconfirm --needed gnome-terminal
+#sudo pacman -S --noconfirm --needed gnome-system-monitor
+#sudo pacman -S --noconfirm --needed gnome-terminal
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
@@ -126,7 +126,7 @@ sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
-sudo pacman -S --noconfirm --needed terminator
+#sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
