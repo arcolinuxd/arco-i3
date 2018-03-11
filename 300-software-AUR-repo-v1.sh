@@ -23,7 +23,7 @@
 
 echo "Installing category Accessories"
 
-sh AUR/install-caffeine-ng-v*.sh
+#sh AUR/install-caffeine-ng-v*.sh
 sh AUR/install-conky-lua-archers-v*.sh
 sh AUR/install-cool-retro-term-v*.sh
 sh AUR/install-mintstick-git-v*.sh
@@ -80,7 +80,7 @@ sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
 sh AUR/install-screenkey-v*.sh
 sh AUR/install-surfn-icons-git-v*.sh
-sh AUR/install-tamzen-font-git-v*.sh
+#sh AUR/install-tamzen-font-git-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
