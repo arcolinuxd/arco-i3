@@ -70,7 +70,7 @@ echo "Installing category Multimedia"
 #sudo pacman -S --noconfirm --needed deadbeef
 #sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
-sudo pacman -S -noconfirm --needed pragha
+sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
