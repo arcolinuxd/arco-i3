@@ -102,6 +102,7 @@ sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed gksu
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
+sudo pacman -S --noconfirm --needed gnome-keyring
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
 #sudo pacman -S --noconfirm --needed gnome-terminal
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
