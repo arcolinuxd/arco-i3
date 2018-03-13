@@ -30,7 +30,7 @@ else
 	if pacman -Qi yaourt &> /dev/null; then
 
 		echo "Installing with yaourt"
-		yaourt -S --noconfirm $package
+		yaourt -S --noconfirm --m-arg --skippgpcheck $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 
