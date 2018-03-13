@@ -15,9 +15,6 @@ set -e
 
 echo "Do not just run this. Examine and judge. Run at own risk."
 echo
-echo "Do not run on virtualbox."
-echo "Intended to be used on ssd/harddisk."
-echo
 echo "Press enter to continue - Press ENTER to continue or CTRL + C to halt"; read dummy;
 
 package="linux-lts"

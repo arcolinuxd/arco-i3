@@ -16,10 +16,6 @@ set -e
 # software from AUR (Arch User Repositories)
 # https://aur.archlinux.org/packages/
 
-#giving tmp folder extra gb in order not to run out of disk space while installing software
-#only if you run into issues with that
-#sudo mount -o remount,size=5G,noatime /tmp
-
 echo "DESKTOP SPECIFIC APPLICATIONS"
 
 echo "Installing category Accessories"
@@ -60,7 +56,6 @@ sudo pacman -S slim --noconfirm --needed
 sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S xorg-xrandr --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
-#sudo pacman -S xfce4-clipman-plugin --noconfirm --needed
 sudo pacman -S xfce4-notifyd --noconfirm --needed
 sudo pacman -S xfce4-power-manager --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed

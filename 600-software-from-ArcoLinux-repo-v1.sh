@@ -60,20 +60,18 @@ echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
 cp -rT /etc/skel ~
-echo
+echo "Copying all files and folders from awesome to ~/.config"
+
+
+
 echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
 echo "################################################################"
 echo
 rm ~/.config/autostart/calamares.desktop
-#rm -rf ~/.config/nitrogen
-rm -rf ~/.config/tint2
-#rm -rf ~/.config/volumeicon
 rm ~/.config/compton.conf
-echo
+
 echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"
 echo "################################################################"
 echo
-rm -rf ~/.local/share/applications
-rm -rf ~/.local/share/xfpanel-switch
