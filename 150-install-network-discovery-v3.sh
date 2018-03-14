@@ -21,7 +21,7 @@ sudo systemctl start avahi-daemon.service
 
 #shares on a mac
 sudo pacman -S --noconfirm --needed nss-mdns
-sudo sed -i 's/dns/mdns dns wins myhostname/g' /etc/nsswitch.conf
+sudo sed -i 's/dns/mdns dns wins/g' /etc/nsswitch.conf
 
 echo "################################################################"
 echo "####       network discovery  software installed        ########"
