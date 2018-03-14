@@ -26,7 +26,7 @@ sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-geany-git --noconfirm --needed
 sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
-#sudo pacman -S arcolinux-local-git --noconfirm --needed
+sudo pacman -S arcolinux-local-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
@@ -71,3 +71,6 @@ echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"
 echo "################################################################"
 echo
+echo "Making sure termite is standard terminal in thunar - deleting rest"
+rm -rf ~/.local/share/xfpanel-switch
+rm -rf ~/.local/share/applications
