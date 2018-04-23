@@ -28,6 +28,7 @@ sudo pacman -S arcolinux-config-git --noconfirm --needed
 sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 sudo pacman -S arcolinux-local-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
+sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
