@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author 	: 	Erik Dubois
-# Website : https://www.erikdubois.be
+# Author	:	Erik Dubois
+# Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
@@ -17,10 +17,10 @@ set -e
 sudo pacman -S --noconfirm --needed samba
 sudo wget "https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD" -O /etc/samba/smb.conf.original
 sudo wget "https://raw.githubusercontent.com/arcolinux/arcolinux-iso/master/archiso/airootfs/etc/samba/smb.conf" -O /etc/samba/smb.conf
-sudo systemctl enable smbd.service
-sudo systemctl start smbd.service
-sudo systemctl enable nmbd.service
-sudo systemctl start nmbd.service
+sudo systemctl enable smb.service
+sudo systemctl start smb.service
+sudo systemctl enable nmb.service
+sudo systemctl start nmb.service
 
 ##Change your username here
 read -p "What is your login? It will be used to add this user to smb : " choice
