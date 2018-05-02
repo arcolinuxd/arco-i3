@@ -1,21 +1,18 @@
 #!/bin/bash
-set -e
+#
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-sudo pacman -S --noconfirm --needed virtualbox
-sudo pacman -S --noconfirm --needed virtualbox-host-modules-arch
-sudo pacman -S --noconfirm --needed linux-headers
+sudo pacman -R --noconfirm linux-lts linux-lts-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo "################################################################"
 echo "#########           You got to reboot.                 #########"

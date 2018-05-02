@@ -13,7 +13,7 @@ set -e
 #
 ##################################################################################################################
 
-sudo pacman -S --noconfirm --needed linux-lts linux-lts-headers virtualbox-host-dkms  virtualbox
+sudo pacman -S --noconfirm --needed linux linux-headers virtualbox-host-dkms virtualbox
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo "################################################################"
