@@ -19,6 +19,8 @@ sh AUR-DS/install-i3blocks-v*.sh
 
 sh AUR/install-yad-v*.sh
 
+sh AUR-DS/install-python-pywal-v*.sh
+
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
