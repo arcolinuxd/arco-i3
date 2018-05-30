@@ -18,20 +18,25 @@ echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
 echo
 
+#sudo pacman -S arcolinux-applications-git --noconfirm --needed
 sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
-sudo pacman -S arcolinux-applications-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
+#sudo pacman -S arcolinux-bspwm-git --noconfirm --needed
 #sudo pacman -S arcolinux-common-git --noconfirm --needed
 sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
+#sudo pacman -S arcolinux-faces-git --noconfirm --needed
 #sudo pacman -S arcolinux-geany-git --noconfirm --needed
 sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
+sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
+sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S arcolinux-local-git --noconfirm --needed
+#sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
-sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
+#sudo pacman -S arcolinux-oblogout --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
 #sudo pacman -S arcolinux-openbox-configs-git --noconfirm --needed
@@ -43,6 +48,7 @@ sudo pacman -S arcolinux-polybar-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
+sudo pacman -S arcolinux-slim --noconfirm --needed
 sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-git --noconfirm --needed
