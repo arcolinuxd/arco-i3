@@ -19,7 +19,7 @@ echo "and run the alias - mirror in the terminal"
 echo "#################################################"
 
 sudo pacman -Syyu
-sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
+sudo pacman -S lightdm --noconfirm --needed
 sudo pacman -S --noconfirm --needed i3status
 sh AUR-DS/install-i3-gaps-next-*.sh
 sudo systemctl enable lightdm.service -f
