@@ -57,7 +57,7 @@ sudo pacman -S --noconfirm --needed ristretto
 echo "Installing category Internet"
 
 sudo pacman -S --noconfirm --needed chromium
-sudo pacman -S --noconfirm --needed filezilla
+#sudo pacman -S --noconfirm --needed filezilla
 sudo pacman -S --noconfirm --needed firefox
 #sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed transmission-cli
