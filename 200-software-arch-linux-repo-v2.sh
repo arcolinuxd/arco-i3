@@ -45,7 +45,7 @@ echo "Installing category Games"
 
 echo "Installing category Graphics"
 
-sudo pacman -S --noconfirm --needed darktable
+#sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
 sudo pacman -S --noconfirm --needed gpick
