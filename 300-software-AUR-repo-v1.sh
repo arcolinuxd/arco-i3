@@ -24,9 +24,9 @@
 echo "Installing category Accessories"
 
 #sh AUR/install-caffeine-ng-v*.sh
-sh AUR/install-conky-lua-archers-v*.sh
-sh AUR/install-cool-retro-term-v*.sh
-sh AUR/install-discord-v*.sh
+#sh AUR/install-conky-lua-archers-v*.sh
+#sh AUR/install-cool-retro-term-v*.sh
+#sh AUR/install-discord-v*.sh
 sh AUR/install-mintstick-git-v*.sh
 sh AUR/install-temps-v*.sh
 
@@ -47,18 +47,18 @@ sh AUR/install-font-manager-v*.sh
 
 echo "Installing category Internet"
 
-sh AUR/install-dropbox-v*.sh
-sh AUR/install-insync-v*.sh
+#sh AUR/install-dropbox-v*.sh
+#sh AUR/install-insync-v*.sh
 #sh AUR/install-skypeforlinux-stable-bin-v*.sh
-sh AUR/install-vivaldi-v*.sh
+#sh AUR/install-vivaldi-v*.sh
 
 
 echo "Installing category Multimedia"
 
-sh AUR/install-gradio-v*.sh
-sh AUR/install-peek-v*.sh
+#sh AUR/install-gradio-v*.sh
+#sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
-sh AUR/install-spotify-v*.sh
+#sh AUR/install-spotify-v*.sh
 
 
 echo "Installing category Office"
