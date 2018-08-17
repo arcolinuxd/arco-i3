@@ -21,6 +21,7 @@ sh AUR/install-yad-v*.sh
 
 sh AUR-DS/install-python-pywal-v*.sh
 
+sh AUR-DS/install-python-walch-v*.sh
 echo "################################################################"
 echo "####       Software from AUR-DS folder installed          ######"
 echo "################################################################"
