@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# can not be used here set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be

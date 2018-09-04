@@ -16,7 +16,7 @@ set -e
 
 sudo pacman -S --noconfirm --needed cups cups-pdf
 
-#first try if you can print without footmatic
+#first try if you can print without foomatic
 #sudo pacman -S foomatic-db-engine --noconfirm --needed
 #sudo pacman -S foomatic-db foomatic-db-ppds foomatic-db-nonfree-ppds foomatic-db-gutenprint-ppds --noconfirm --needed
 sudo pacman -S ghostscript gsfonts gutenprint --noconfirm --needed

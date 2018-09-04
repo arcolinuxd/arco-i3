@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
@@ -13,13 +13,11 @@
 #
 ##################################################################################################################
 
-echo '#[arcolinux_repo_testing]
-#SigLevel = Required DatabaseOptional
-#Server = https://arcolinux.github.io/arcolinux_repo_testing/$arch
+echo '
 
-[arcolinux_repo]
-SigLevel = Required DatabaseOptional
-Server = https://arcolinux.github.io/arcolinux_repo/$arch' | sudo tee --append /etc/pacman.conf
+keyserver hkp://pool.sks-keyservers.net:80
+keyserver hkps://hkps.pool.sks-keyservers.net:443
+keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | sudo tee --append ~/.gnupg/gpg.conf
 
 echo "################################################################"
 echo "###                  arcolinux repo added                   ####"
