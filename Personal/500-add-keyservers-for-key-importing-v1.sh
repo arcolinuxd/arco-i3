@@ -20,5 +20,5 @@ keyserver hkps://hkps.pool.sks-keyservers.net:443
 keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | sudo tee --append ~/.gnupg/gpg.conf
 
 echo "################################################################"
-echo "###                  arcolinux repo added                   ####"
+echo "###                  keyservers added                       ####"
 echo "################################################################"
