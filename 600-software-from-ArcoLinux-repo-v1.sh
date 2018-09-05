@@ -70,9 +70,15 @@ echo "################################################################"
 echo
 
 echo "################################################################"
-echo "####     Software from ArcoLinux 3party Repository installed       ####"
+echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo
+cp -rT /etc/skel ~
+
+echo "################################################################"
+echo "####     Software from ArcoLinux 3party Repository           ####"
+echo "################################################################"
+echo "Retry if it times out - large files to download"
 
 sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed dropbox
@@ -83,12 +89,6 @@ echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"
 echo "################################################################"
 echo
-
-echo "################################################################"
-echo "Copying all files and folders from /etc/skel to ~"
-echo "################################################################"
-echo
-cp -rT /etc/skel ~
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
