@@ -24,7 +24,11 @@ sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-bspwm-git --noconfirm --needed
 #sudo pacman -S arcolinux-common-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-cinnamon-git --noconfirm --needed
 sudo pacman -S arcolinux-config-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-gnome-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-mate-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-plasma-git --noconfirm --needed
 #sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-faces-git --noconfirm --needed
@@ -34,10 +38,11 @@ sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S arcolinux-local-git --noconfirm --needed
-#sudo pacman -S arcolinux-neofetch-ascii-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
+#sudo pacman -S arcolinux-oblogout-awesome --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
+#sudo pacman -S arcolinux-oblogout-bspwm --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
 #sudo pacman -S arcolinux-openbox-configs-git --noconfirm --needed
