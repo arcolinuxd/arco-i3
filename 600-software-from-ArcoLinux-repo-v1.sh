@@ -45,6 +45,7 @@ sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-bspwm --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-obmenu-generator-git --noconfirm --needed
+#sudo pacman -S arcolinux-obmenu-generator-minimal-git --noconfirm --needed
 #sudo pacman -S arcolinux-openbox-configs-git --noconfirm --needed
 #sudo pacman -S arcolinux-openbox-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-pipemenus-git --noconfirm --needed
@@ -61,6 +62,7 @@ sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
+#sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
 
 
@@ -96,11 +98,9 @@ echo "################################################################"
 echo
 rm ~/.config/autostart/calamares.desktop
 rm ~/.config/compton.conf
+#rm -rf ~/.config/volumeicon
 
 echo "################################################################"
 echo "removing all folders and files unnecessary for this desktop from .local"
 echo "################################################################"
 echo
-echo "Making sure termite is standard terminal in thunar - deleting rest"
-rm -rf ~/.local/share/xfpanel-switch
-rm -rf ~/.local/share/applications
