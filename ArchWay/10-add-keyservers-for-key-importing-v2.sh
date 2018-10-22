@@ -12,21 +12,26 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+[ -d $HOME"/.gnupg" ] || mkdir -p $HOME"/.gnupg"
+
+echo "Adding keyservers to your personal .gpg for future applications"
+echo "that require keys to be imported with yay for example"
 
 echo '
+keyserver hkp://pool.sks-keyservers.net:80
+keyserver hkps://hkps.pool.sks-keyservers.net:443
+keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | tee --append ~/.gnupg/gpg.conf
 
-#[arcolinux_repo_testing]
-#SigLevel = Required DatabaseOptional
-#Server = https://arcolinux.github.io/arcolinux_repo_testing/$arch
+chmod 600 ~/.gnupg/gpg.conf
+chmod 700 ~/.gnupg
 
-[arcolinux_repo]
-SigLevel = Required DatabaseOptional
-Server = https://arcolinux.github.io/arcolinux_repo/$arch
+echo "Adding keyservers to the /etc/pacman.d/gnupg folder for the use with pacman"
 
-[arcolinux_repo_3party]
-SigLevel = Required DatabaseOptional
-Server = https://arcolinux.github.io/arcolinux_repo_3party/$arch' | sudo tee --append /etc/pacman.conf
+echo '
+keyserver hkp://pool.sks-keyservers.net:80
+keyserver hkps://hkps.pool.sks-keyservers.net:443
+keyserver hkp://ipv4.pool.sks-keyservers.net:11371' | sudo tee --append /etc/pacman.d/gnupg/gpg.conf
 
 echo "################################################################"
-echo "###                  arcolinux repo added                   ####"
+echo "###                  keyservers added                       ####"
 echo "################################################################"
