@@ -14,7 +14,6 @@ set -e
 ##################################################################################################################
 
 echo "Getting the latest arcolinux mirrors file"
-echo "It will conflict later if you want to install arcolinux-mirrorlist-git."
 
 sudo pacman -S wget --noconfirm --needed
 sudo wget https://raw.githubusercontent.com/arcolinux/arcolinux-mirrorlist/master/arcolinux-mirrorlist -O /etc/pacman.d/arcolinux-mirrorlist
@@ -38,6 +37,11 @@ SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/arcolinux-mirrorlist' | sudo tee --append /etc/pacman.conf
 
 sudo pacman -Syy
+
+echo "Installing the official mirrorlist file now."
+echo "It will overwrite the one we downloaded earlier on."
+
+sudo pacman -S arcolinux-mirrorlist-git --noconfirm
 
 
 echo "################################################################"
