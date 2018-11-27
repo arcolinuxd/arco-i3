@@ -21,8 +21,17 @@ sudo systemctl start avahi-daemon.service
 
 #shares on a mac
 sudo pacman -S --noconfirm --needed nss-mdns
-sudo sed -i 's/dns/mdns dns wins/g' /etc/nsswitch.conf
 
+#change nsswitch.conf for access to nas servers
+#original line comes from the package filesystem
+#hosts: files mymachines myhostname resolve [!UNAVAIL=return] dns
+#ArcoLinux line
+#hosts: files mymachines resolve [!UNAVAIL=return] mdns dns wins myhostname
+
+#first part
+sudo sed -i 's/files mymachines myhostname/files mymachines/g' /etc/nsswitch.conf
+#last part
+sudo sed -i 's/\[\!UNAVAIL=return\] dns/\[\!UNAVAIL=return\] mdns dns wins myhostname/g' /etc/nsswitch.conf
 echo "################################################################"
 echo "####       network discovery  software installed        ########"
 echo "################################################################"
