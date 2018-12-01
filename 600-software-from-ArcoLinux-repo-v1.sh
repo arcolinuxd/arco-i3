@@ -59,6 +59,7 @@ sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
 sudo pacman -S arcolinux-slim --noconfirm --needed
 sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
+sudo pacman -S arcolinux-system-config-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
@@ -98,7 +99,7 @@ echo "################################################################"
 echo "removing all folders and files unnecessary for this dekstop from .config"
 echo "################################################################"
 echo
-rm ~/.config/autostart/calamares.desktop
+
 rm ~/.config/compton.conf
 #rm -rf ~/.config/volumeicon
 
