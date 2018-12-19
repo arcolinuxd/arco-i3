@@ -56,6 +56,7 @@ sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S w3m --noconfirm --needed
 sudo pacman -S xorg-xrandr --noconfirm --needed
+sudo pacman -S xorg-xkill --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
 sudo pacman -S xfce4-notifyd --noconfirm --needed
 sudo pacman -S xfce4-power-manager --noconfirm --needed
