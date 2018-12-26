@@ -122,6 +122,7 @@ sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed numlockx
 sudo pacman -S --noconfirm --needed polkit-gnome
+sudo pacman -S --noconfirm --needed qt5ct
 sudo pacman -S --noconfirm --needed sane
 sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed scrot
