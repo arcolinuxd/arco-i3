@@ -58,6 +58,7 @@ sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-git --noconfirm --needed
 #sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-polybar-git --noconfirm --needed
+sudo pacman -S arcolinux-qt5-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-git --noconfirm --needed
 sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
