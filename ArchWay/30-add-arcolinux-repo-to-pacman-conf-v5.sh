@@ -18,7 +18,7 @@ set -e
 echo "Getting the latest arcolinux mirrors file"
 
 sudo pacman -S wget --noconfirm --needed
-sudo wget https://raw.githubusercontent.com/arcolinux/arcolinux-mirrorlist/master/arcolinux-mirrorlist -O /etc/pacman.d/arcolinux-mirrorlist
+sudo wget https://raw.githubusercontent.com/arcolinux/arcolinux-mirrorlist/master/etc/pacman.d/arcolinux-mirrorlist -O /etc/pacman.d/arcolinux-mirrorlist
 
 
 echo '
