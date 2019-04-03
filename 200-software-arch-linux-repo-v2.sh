@@ -94,6 +94,7 @@ echo "Installing category Other"
 echo "Installing category System"
 
 sudo pacman -S --noconfirm --needed arc-gtk-theme
+sudo pacman -S --noconfirm --needed accountsservice
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
 #sudo pacman -S --noconfirm --needed bleachbit
