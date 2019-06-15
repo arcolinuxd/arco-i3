@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+echo "Put a hashtag in front of set -e to keep installing even if there is an error"
+sleep 5
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
