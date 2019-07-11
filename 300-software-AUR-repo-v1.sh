@@ -75,7 +75,7 @@ sh AUR/install-pamac-aur-v*.sh
 #sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
-sh AUR/install-screenkey-v*.sh
+sh AUR/install-screenkey-git-v*.sh
 sh AUR/install-surfn-icons-git-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
