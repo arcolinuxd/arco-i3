@@ -55,6 +55,7 @@ sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-awesome --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-bspwm --noconfirm --needed
+#sudo pacman -S arcolinux-oblogout-herbstluftwm --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-qtile --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-oblogout-xmonad --noconfirm --needed
