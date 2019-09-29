@@ -21,6 +21,8 @@ sh AUR-DS/install-i3blocks-v*.sh
 
 sh AUR-DS/install-python-pywal-v*.sh
 
+sh AUR-DS/install-spotifywm-git-v*.sh
+
 sh AUR/install-yad-v*.sh
 
 echo "################################################################"
