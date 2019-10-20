@@ -24,6 +24,7 @@ sudo pacman -S terminus-font --noconfirm --needed
 sudo pacman -S ttf-bitstream-vera --noconfirm --needed
 sudo pacman -S ttf-dejavu --noconfirm --needed
 sudo pacman -S ttf-droid --noconfirm --needed
+sudo pacman -S ttf-hack --noconfirm --needed
 sudo pacman -S ttf-inconsolata --noconfirm --needed
 sudo pacman -S ttf-liberation --noconfirm --needed
 sudo pacman -S ttf-roboto --noconfirm --needed
