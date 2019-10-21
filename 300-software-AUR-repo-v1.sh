@@ -64,6 +64,7 @@ echo "Installing category Other"
 echo "Installing category System"
 
 sh AUR/install-downgrade-v*.sh
+sh AUR/install-font-manager-git-v*.sh
 sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
