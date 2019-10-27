@@ -20,7 +20,6 @@ echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
 echo
 
-#sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-arc-themes-nico-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
