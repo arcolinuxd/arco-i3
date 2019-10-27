@@ -32,9 +32,9 @@ sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-deepin-git --noconfirm --needed
 sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-gnome-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-lxqt-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-mate-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-plasma-git --noconfirm --needed
-#sudo pacman -S arcolinux-config-xmobar-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-xmonad-git --noconfirm --needed
 #sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
@@ -51,6 +51,8 @@ sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
 sudo pacman -S arcolinux-local-git --noconfirm --needed
 #sudo pacman -S arcolinux-logo-git --noconfirm --needed
+#sudo pacman -S arcolinux-lxqt-applications-add-git --noconfirm --needed
+#sudo pacman -S arcolinux-lxqt-applications-hide-git --noconfirm --needed
 sudo pacman -S arcolinux-mirrorlist-git --noconfirm --needed
 sudo pacman -S arcolinux-neofetch-git --noconfirm --needed
 sudo pacman -S arcolinux-nitrogen-git --noconfirm --needed
@@ -86,6 +88,7 @@ sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 #sudo pacman -S arcolinux-wallpapers-lxqt-dual-git --noconfirm --needed
 #sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
+#sudo pacman -S arcolinux-xmobar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-polybar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-xmobar-git --noconfirm --needed
 
