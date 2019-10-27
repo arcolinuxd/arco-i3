@@ -20,7 +20,6 @@ echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
 echo
 
-#sudo pacman -S arcolinux-applications-git --noconfirm --needed
 #sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-arc-themes-nico-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
@@ -59,6 +58,7 @@ sudo pacman -S arcolinux-kvantum-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter-plasma --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
+#sudo pacman -S arcolinux-local-applications-git --noconfirm --needed
 sudo pacman -S arcolinux-local-xfce4-git --noconfirm --needed
 #sudo pacman -S arcolinux-logo-git --noconfirm --needed
 #sudo pacman -S arcolinux-lxqt-applications-add-git --noconfirm --needed
