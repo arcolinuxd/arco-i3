@@ -6,6 +6,8 @@ set -e
 # Website	:	https://www.arcolinux.info
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
 # Website	:	https://www.arcolinuxforum.com
 ##################################################################################################################
 #
@@ -13,9 +15,9 @@ set -e
 #
 ##################################################################################################################
 
-sudo pacman -R linux-lts linux-lts-headers
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-
-echo "################################################################"
-echo "#########           You got to reboot.                 #########"
-echo "################################################################"
+sudo pacman -R sardi-ghost-flexible-mint-y-icons-git --noconfirm
+sudo pacman -R sardi-flexible-mint-y-icons-git --noconfirm
+sudo pacman -R sardi-orb-colora-mint-y-icons-git --noconfirm
+sudo pacman -R sardi-flat-mint-y-icons-git --noconfirm
+sudo pacman -R sardi-mono-mint-y-icons-git --noconfirm
+sudo pacman -R sardi-mint-y-icons-git --noconfirm

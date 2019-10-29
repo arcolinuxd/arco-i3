@@ -6,6 +6,8 @@ set -e
 # Website	:	https://www.arcolinux.info
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
 # Website	:	https://www.arcolinuxforum.com
 ##################################################################################################################
 #
@@ -20,6 +22,11 @@ sudo pacman -S --noconfirm --needed virtualbox
 sudo pacman -S --needed virtualbox-host-dkms
 sudo pacman -S --noconfirm --needed linux-lts-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+echo "################################################################"
+echo "##      Removing all the messages virtualbox produces         ##"
+echo "################################################################"
+VBoxManage setextradata global GUI/SuppressMessages "all"
 
 echo "################################################################"
 echo "#########           You got to reboot.                 #########"

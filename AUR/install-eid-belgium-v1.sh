@@ -15,7 +15,17 @@ set -e
 #
 ##################################################################################################################
 
-package="surfn-icons-git"
+sudo pacman -S pcsclite ccid opensc --noconfirm --needed
+
+sudo systemctl enable	pcscd
+sudo systemctl start	pcscd
+
+
+
+#run script to be able to receive the key - problem with Belgian ISP
+gpg --recv-key 824A5E0010A04D46
+
+package="eid-mw"
 
 #----------------------------------------------------------------------------------
 
@@ -75,4 +85,3 @@ else
 fi
 
 #----------------------------------------------------------------------------------
-
