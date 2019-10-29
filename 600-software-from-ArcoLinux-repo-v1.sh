@@ -53,6 +53,7 @@ sudo pacman -S arcolinux-config-i3-git --noconfirm --needed
 sudo pacman -S arcolinux-fonts-git --noconfirm --needed
 sudo pacman -S arcolinux-geany-git --noconfirm --needed
 #sudo pacman -S arcolinux-gnome-git --noconfirm --needed
+sudo pacman -S arcolinux-hblock-git --noconfirm --needed
 #sudo pacman -S arcolinux-herbstluftwm-git --noconfirm --needed
 sudo pacman -S arcolinux-i3wm-git --noconfirm --needed
 sudo pacman -S arcolinux-kvantum-git --noconfirm --needed
