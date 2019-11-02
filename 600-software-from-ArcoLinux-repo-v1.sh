@@ -109,6 +109,28 @@ sudo pacman -S arcolinux-xfce-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-polybar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-xmobar-git --noconfirm --needed
 
+#arcolinux dconf per desktop
+#sudo pacman -S --noconfirm --needed  arcolinux-awesome-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-bspwm-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-budgie-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-cinnamon-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-deepin-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-dwm-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-enlightenment-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-gnome-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-herbstluftwm-dconf-git
+sudo pacman -S --noconfirm --needed  arcolinux-i3wm-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-jwm-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-lxqt-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-mate-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-openbox-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-plasma-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-qtile-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-xfce-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-xmonad-dconf-git
+#sudo pacman -S --noconfirm --needed  arcolinux-xtended-dconf-git
+
 echo "################################################################"
 echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
