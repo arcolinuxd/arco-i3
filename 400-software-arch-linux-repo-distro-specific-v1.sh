@@ -44,7 +44,7 @@ echo "Installing category System"
 
 sudo pacman -S arandr --noconfirm --needed
 sudo pacman -S awesome-terminal-fonts --noconfirm --needed
-sudo pacman -S compton  --noconfirm --needed
+sudo pacman -S picom  --noconfirm --needed
 sudo pacman -S dmenu  --noconfirm --needed
 sudo pacman -S feh --noconfirm --needed
 sudo pacman -S gmrun --noconfirm --needed
