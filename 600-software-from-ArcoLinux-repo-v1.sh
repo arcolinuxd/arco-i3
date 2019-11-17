@@ -46,7 +46,7 @@ sudo pacman -S arcolinux-config-i3-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-qtile-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-xfce-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-xmonad-git --noconfirm --needed
-#sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
+sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-deepin-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-faces-git --noconfirm --needed
