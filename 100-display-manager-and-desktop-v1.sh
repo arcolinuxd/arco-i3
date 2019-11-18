@@ -27,7 +27,7 @@ sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter arcolinux-ligh
 sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git
 #installing desktop environment
 if pacman -Qi i3-wm &> /dev/null; then
-		sudo pacman -R i3-wm --no-confirm
+		sudo pacman -R i3-wm --noconfirm
 fi
 sudo pacman -S --noconfirm --needed i3status
 sudo pacman -S --noconfirm --needed i3-gaps
