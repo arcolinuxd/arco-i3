@@ -31,7 +31,7 @@ sudo pacman -S arcolinux-arc-themes-nico-git --noconfirm --needed
 sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-common-git --noconfirm --needed
 sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
-#sudo pacman -S arcolinux-cron-git --noconfirm --needed
+sudo pacman -S arcolinux-cron-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
 #sudo pacman -S arcolinux-faces-git --noconfirm --needed
 sudo pacman -S arcolinux-fonts-git --noconfirm --needed
