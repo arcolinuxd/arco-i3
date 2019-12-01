@@ -146,6 +146,7 @@ sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
+sudo pacman -S --noconfirm --needed xdo
 sudo pacman -S --noconfirm --needed xdotool
 sudo pacman -S --noconfirm --needed zenity
 #sudo pacman -S --noconfirm --needed
