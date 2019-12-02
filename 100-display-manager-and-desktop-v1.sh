@@ -25,8 +25,9 @@ sudo pacman -Syyu --noconfirm
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed arcolinux-lightdm-gtk-greeter arcolinux-lightdm-gtk-greeter-settings
 sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git
-#installing desktop environment
-sudo pacman -R i3-wm --noconfirm
+if sudo pacman -Qi i3-wm &> /dev/null; then
+    sudo pacman -R i3-wm --noconfirm
+fi
 sudo pacman -S --noconfirm --needed i3status
 sudo pacman -S --noconfirm --needed i3-gaps
 #enabling displaymanager or login manager
