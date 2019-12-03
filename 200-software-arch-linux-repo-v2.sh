@@ -24,7 +24,7 @@ sudo pacman -S --noconfirm --needed cronie
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed plank
-sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
