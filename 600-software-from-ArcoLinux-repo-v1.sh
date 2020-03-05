@@ -66,8 +66,10 @@ sudo pacman -S arcolinux-system-config-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-themes-git --noconfirm --needed
+sudo pacman -S arcolinux-tweak-tool-git --noconfirm --needed
 sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
+sudo pacman -S arcolinux-welcome-app-git --noconfirm --needed
 #sudo pacman -S arcolinux-wallpapers-lxqt-dual-git --noconfirm --needed
 #sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmobar-git --noconfirm --needed
