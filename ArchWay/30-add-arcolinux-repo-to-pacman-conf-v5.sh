@@ -34,7 +34,7 @@ Include = /etc/pacman.d/arcolinux-mirrorlist
 SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/arcolinux-mirrorlist
 
-[arcolinux_repo_submicron]
+[arcolinux_repo_iso]
 SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/arcolinux-mirrorlist' | sudo tee --append /etc/pacman.conf
 
