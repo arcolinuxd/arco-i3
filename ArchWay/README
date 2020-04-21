@@ -1,0 +1,23 @@
+ArcoLinux Spices Application
+
+This application will assist you in getting the ArcoLinux packages from the ArcoLinux repositories.
+
+It will install the latest ArcoLinux .bashrc and replace yours with it.
+
+It will install all packages we use in the .bashrc.
+
+It will import the ArcoLinux signing key.
+
+It can fix issues with server connections hosting the keys.
+
+Download the package and install it with this command
+
+sudo pacman -U packagename
+
+Youtube tutorial
+
+https://arcolinux.info/download/arcolinux-spices-application/
+
+Youtube playlist
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS4oAp187sR78hKZww-aICNK
