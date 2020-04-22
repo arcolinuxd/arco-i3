@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
@@ -56,6 +56,7 @@ func_category Fonts
 
 list=(
 arcolinux-fonts-git
+awesome-terminal-fonts
 adobe-source-sans-pro-fonts
 cantarell-fonts
 noto-fonts

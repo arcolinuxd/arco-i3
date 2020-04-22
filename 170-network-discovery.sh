@@ -38,12 +38,13 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
-
+###############################################################################
 echo "Installation of network software"
+###############################################################################
 
 list=(
 avahi
@@ -58,6 +59,8 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
+
+###############################################################################
 
 tput setaf 5;echo "################################################################"
 echo "Change nsswitch.conf for access to nas servers"

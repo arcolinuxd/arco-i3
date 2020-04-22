@@ -101,7 +101,7 @@ done
 
 ###############################################################################
 
-func_category Graphics
+func_category Internet
 
 list=(
 chromium

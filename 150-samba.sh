@@ -42,8 +42,9 @@ func_install() {
     fi
 }
 
-
+###############################################################################
 echo "Installation of samba software"
+###############################################################################
 
 list=(
 samba
@@ -57,6 +58,8 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
+
+###############################################################################
 
 tput setaf 5;echo "################################################################"
 echo "Getting the ArcoLinux Samba config"

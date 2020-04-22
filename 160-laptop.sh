@@ -42,8 +42,9 @@ func_install() {
     fi
 }
 
-
+###############################################################################
 echo "Installation of laptop software"
+###############################################################################
 
 list=(
 tlp
@@ -56,6 +57,8 @@ for name in "${list[@]}" ; do
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
 done
+
+###############################################################################
 
 tput setaf 5;echo "################################################################"
 echo "Enabling services"
