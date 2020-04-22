@@ -61,6 +61,8 @@ arcolinux-hblock-git
 arcolinux-local-xfce4-git
 arcolinux-kvantum-git
 arcolinux-local-applications-git
+arcolinux-nitrogen-git
+arcolinux-polybar-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-variety-git

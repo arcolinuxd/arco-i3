@@ -55,9 +55,26 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
-dmenu
+arandr
+feh
+gmrun
+gtk-engine-murrine
+i3blocks
 imagemagick
+lxappearance
+lxrandr
+nitrogen
+picom
+polybar
+python-pywal
+volumeicon
 w3m
+xfce4-appfinder
+xfce4-notifyd
+xfce4-power-manager
+xfce4-settings
+xfce4-screenshooter
+xfce4-taskmanager
 hardcode-fixer-git
 )
 
