@@ -56,7 +56,7 @@ thunar-volman
 xfce4-terminal
 arcolinux-xfce-git
 i3-gaps
-i3-status
+i3status
 arcolinux-i3wm-git
 arcolinux-config-i3wm-git
 arcolinux-i3wm-dconf-git
