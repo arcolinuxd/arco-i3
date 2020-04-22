@@ -57,6 +57,7 @@ xfce4-terminal
 arcolinux-xfce-git
 i3-gaps
 i3status
+dmenu
 arcolinux-i3wm-git
 arcolinux-config-i3wm-git
 arcolinux-i3wm-dconf-git
