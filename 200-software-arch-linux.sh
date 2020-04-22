@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1 
+    	sudo pacman -S --noconfirm --needed $1
     fi
 }
 
@@ -55,7 +55,6 @@ func_category() {
 func_category Accessories
 
 list=(
-plank
 variety
 )
 
