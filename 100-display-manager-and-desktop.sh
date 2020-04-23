@@ -56,6 +56,7 @@ thunar-archive-plugin
 thunar-volman
 xfce4-terminal
 arcolinux-xfce-git
+arcolinux-local-xfce4-git
 i3-gaps
 i3status
 dmenu
