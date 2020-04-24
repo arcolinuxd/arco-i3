@@ -120,7 +120,6 @@ done
 func_category Multimedia
 
 list=(
-simplescreenrecorder
 vlc
 )
 
@@ -152,7 +151,6 @@ func_category System
 
 list=(
 dconf-editor
-scrot
 )
 
 count=0
