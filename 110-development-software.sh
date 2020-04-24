@@ -55,6 +55,7 @@ the_platinum_searcher-bin
 telegram-desktop
 discord
 simplescreenrecorder
+scrot
 )
 
 count=0
