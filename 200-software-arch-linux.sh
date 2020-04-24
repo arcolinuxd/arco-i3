@@ -151,7 +151,6 @@ done
 func_category System
 
 list=(
-accountsservice
 dconf-editor
 scrot
 )
