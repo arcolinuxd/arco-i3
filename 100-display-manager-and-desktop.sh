@@ -59,6 +59,7 @@ arcolinux-xfce-git
 arcolinux-local-xfce4-git
 i3-gaps
 i3status
+autotiling
 dmenu
 feh
 arcolinux-i3wm-git
