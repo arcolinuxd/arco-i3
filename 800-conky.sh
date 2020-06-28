@@ -73,8 +73,8 @@ tput setaf 6;echo "#############################################################
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo;tput sgr0
-cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~
-
+cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
+cp -arf /etc/skel/. ~
 tput setaf 11;
 echo "################################################################"
 echo "Software has been installed"
