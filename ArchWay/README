@@ -1,5 +1,7 @@
 ArcoLinux Spices Application
 
+Follow the link in this folder to download the application.
+
 This application will assist you in getting the ArcoLinux packages from the ArcoLinux repositories.
 
 It will install the latest ArcoLinux .bashrc and replace yours with it.
@@ -14,9 +16,9 @@ Download the package and install it with this command
 
 sudo pacman -U packagename
 
-Youtube tutorial
+Website link
 
-https://arcolinux.info/download/arcolinux-spices-application/
+https://www.arcolinux.info/arcolinux-spices-application/
 
 Youtube playlist
 
