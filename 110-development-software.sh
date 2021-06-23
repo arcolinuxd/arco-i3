@@ -48,7 +48,7 @@ echo "Installation of the development packages"
 
 list=(
 firefox
-sublime-text-dev
+sublime-text-4
 flameshot
 meld
 the_platinum_searcher-bin

@@ -72,7 +72,7 @@ func_category Development
 list=(
 atom
 meld
-sublime-text-dev
+sublime-text-4
 )
 
 count=0
