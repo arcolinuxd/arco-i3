@@ -57,7 +57,7 @@ func_category Fonts
 list=(
 arcolinux-fonts-git
 awesome-terminal-fonts
-adobe-source-sans-pro-fonts
+adobe-source-sans-fonts
 cantarell-fonts
 noto-fonts
 ttf-bitstream-vera
