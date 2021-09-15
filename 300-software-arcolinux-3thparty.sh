@@ -88,7 +88,7 @@ func_category System
 list=(
 downgrade
 inxi
-pamac-aur
+pamac-all
 )
 
 count=0
