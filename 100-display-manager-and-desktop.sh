@@ -62,7 +62,7 @@ dmenu
 feh
 arcolinux-i3wm-git
 arcolinux-config-all-desktops-git
-arcolinux-i3wm-dconf-git
+arcolinux-dconf-all-desktops-git
 arcolinux-logout-git
 )
 
