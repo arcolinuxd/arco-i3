@@ -61,7 +61,7 @@ autotiling
 dmenu
 feh
 arcolinux-i3wm-git
-arcolinux-config-i3wm-git
+arcolinux-config-all-desktops-git
 arcolinux-i3wm-dconf-git
 arcolinux-logout-git
 )
