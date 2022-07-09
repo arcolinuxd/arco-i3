@@ -63,7 +63,7 @@ feh
 arcolinux-i3wm-git
 arcolinux-config-all-desktops-git
 arcolinux-dconf-all-desktops-git
-arcolinux-logout-git
+archlinux-logout-git
 )
 
 count=0
