@@ -49,6 +49,7 @@ echo "Installation of samba software"
 list=(
 samba
 gvfs-smb
+gvfs-dnssd
 )
 
 count=0
