@@ -79,7 +79,7 @@ if [ -f /usr/local/share/arcolinux/nsswitch.conf ]; then
 else
 	echo "Getting latest /etc/nsswitch.conf from the internet"
 	sudo cp /etc/nsswitch.conf /etc/nsswitch.conf.bak
-	sudo wget https://raw.githubusercontent.com/arcolinux/arcolinuxl-iso/master/archiso/airootfs/etc/nsswitch.conf -O $workdir/etc/nsswitch.conf
+	sudo wget https://raw.githubusercontent.com/arconetpro/arcopro-iso/refs/heads/main/archiso/airootfs/etc/nsswitch.conf -O $workdir/etc/nsswitch.conf
 fi
 
 
