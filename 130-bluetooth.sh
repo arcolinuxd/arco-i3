@@ -71,7 +71,7 @@ echo;tput sgr0
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
-sudo sed -i 's/'#AutoEnable=false'/'AutoEnable=true'/g' /etc/bluetooth/main.conf
+sudo sed -i 's/^#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
 
 tput setaf 11;
 echo "################################################################"
