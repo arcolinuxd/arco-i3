@@ -89,7 +89,6 @@ func_category Graphics
 list=(
 gimp
 inkscape
-nomacs
 )
 
 count=0
